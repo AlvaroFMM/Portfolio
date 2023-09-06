@@ -1,0 +1,52 @@
+section{
+    margin: 2rem 12rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+   
+}
+span i:hover{
+   
+    cursor: pointer;
+    font-size: 2rem;
+}
+h2{
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+p{
+    font-size: 24px;
+}
+button{
+    padding: 15px;
+    width: 20rem;
+    margin-top: 1rem;
+    border-radius: 0.75rem;
+    background-color: #3f0071;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+span{
+    font-size: 2rem;
+    line-height: 1.5;
+    margin: 0 0.5rem;
+}
+section span:hover{
+    transform: scale(2);
+}
+
+@media screen and (max-width: 1200px) {
+    section {
+        margin: 0 19%;
+        height: fit-content;
+        
+    }
+}
+@media screen and (max-width: 600px) {
+    section {
+        margin: 0 12%;
+        height: fit-content;
+        
+    }
+}

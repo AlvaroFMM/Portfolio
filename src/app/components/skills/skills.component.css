@@ -1,0 +1,123 @@
+section {
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+    flex-wrap: wrap;
+    
+}
+
+#experience {
+    position: relative;
+
+}
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.75rem;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 2rem;
+}
+  
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+  
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+  
+article {
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+}
+.section__text__p1 {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.title {
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}  
+article .icon {
+    cursor: default;
+}
+  /* ICONS */
+
+.icon {
+    cursor: pointer;
+    height: 2rem;
+}
+.about-containers,
+.about-details-container {
+  display: flex;
+}
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+@media screen and (max-width: 1400px) {
+
+    .about-containers {
+      flex-wrap: wrap;
+    }
+
+}
+@media screen and (max-width: 1200px) {
+
+    #experience,
+    .experience-details-container {
+      margin-top: 2rem;
+    }
+
+    section {
+      margin: 0 5%;
+    }
+    .about-containers {
+      margin-top: 0;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    article {
+      font-size: 1rem;
+    }
+    .about-containers{
+      flex-wrap: wrap;
+    }
+    .experience-sub-title {
+      font-size: 1.25rem;
+    }
+    .section__text__p2 {
+      font-size: 1.25rem;
+    }
+    .title {
+      font-size: 2rem;
+    }
+
+}
+  

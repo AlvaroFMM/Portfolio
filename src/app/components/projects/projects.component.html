@@ -1,0 +1,60 @@
+<section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+        <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="card" (mouseenter)="onMouseEnter(rutasImage)">
+                    <img [src]="rutaFinalCountry"  class="project-img"  >
+                </div>
+                <h2 class="experience-sub-title project-title">Country Application</h2>
+                <p class="descriptio-text"><strong>Project in Angular</strong> consumed a REST API for countries, applying advanced techniques 
+                    such as debouncing, subscriptions, and the use of Subjects. I explored the world of HTTP 
+                    requests and real-time data management.</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" (click)="onRedirectGitHub()">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" (click)="onRedirectGitHubLive()">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="card" (mouseenter)="onMouseEnter(rutasImagePHP)" >
+                    <img [src]="rutaFinalPHP"  class="project-img"  >
+                </div>
+                <h2 class="experience-sub-title project-title">Ticket System</h2>
+                <p> I developed a ticket management system using <strong>PHP and MySQL</strong>that makes it 
+                    easy for organizations to handle customer requests. Registered users can create tickets, 
+                    track their status, and receive email notifications.
+                </p>
+                
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" (click)="onRedirectGitHub2()" >
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" (click)="onRedirectGitHubLive2()" >
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/gif01.png" alt="Project 3" class="project-img" />
+                </div>
+                <h2 class="experience-sub-title project-title">Gifs App</h2>
+                <p> This frontend application, developed in Angular, provides an interactive experience for searching and viewing GIFs via the Giphy API. Leveraging Angular as the technological foundation
+                </p>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn" (click)="onRedirectGitHub3()">
+                        Github
+                    </button>
+                    <button class="btn btn-color-2 project-btn" (click)="onRedirectGitHubLive3()">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

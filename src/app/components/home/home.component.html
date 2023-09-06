@@ -1,0 +1,25 @@
+<section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/IMG-FOTO.png" alt="Alvaro profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Alvaro Mamani</h1>
+      <p class="section__text__p2">Junior FullStack Developer</p>
+      <div class="btn-container">
+        <button
+          class="btn btn-color-2"
+          onclick="window.open('/assets/MamaniMamaniAlvaro_F.pdf')"
+        >
+          Download CV
+        </button>
+        <button class="btn btn-color-1" routerLink="contact">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <span><i class="uil uil-linkedin" (click)="onRedirectGitHu2b()"></i></span>
+        <span><i class="uil uil-github" (click)="onRedirectGitHub()"></i></span>
+      </div>
+    </div>
+  </section>
